@@ -3,6 +3,7 @@ package com.mikepenz.markdown.compose
 import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.runtime.staticCompositionLocalOf
 import com.mikepenz.markdown.model.*
+import java.io.File
 
 /**
  * The CompositionLocal to provide functionality related to transforming the bullet of an ordered list
@@ -45,3 +46,9 @@ val LocalMarkdownTypography = compositionLocalOf<MarkdownTypography> {
 val LocalMarkdownPadding = staticCompositionLocalOf<MarkdownPadding> {
     error("No local Padding")
 }
+
+
+/**
+ * Provide file's directory
+ */
+val LocalDir = staticCompositionLocalOf<File> { error("No Local Dir") }
