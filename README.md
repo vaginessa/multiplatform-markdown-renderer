@@ -1,7 +1,7 @@
 <h1 align="center">
   Kotlin Multiplatform Markdown Renderer
 </h1>
-
+-
 <p align="center">
     ... a Kotlin Multiplatform Markdown Renderer. (Android, Desktop, ...) powered by Compose Multiplatform
 </p>
